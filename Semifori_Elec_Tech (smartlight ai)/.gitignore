@@ -1,0 +1,18 @@
+# Python environments
+venv/
+**/venv/
+**/.venv/
+**/env/
+
+# Python cache
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Temporary files
+.pytest_cache/
+.mypy_cache/
+
+**/outputs_backup_*/
+.env
+

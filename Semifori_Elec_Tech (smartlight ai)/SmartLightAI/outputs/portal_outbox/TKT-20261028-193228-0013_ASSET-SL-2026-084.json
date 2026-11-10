@@ -1,0 +1,23 @@
+{
+  "ticket_id": "TKT-20261028-193228-0013",
+  "created_at": "2026-10-28T19:32:28",
+  "asset_id": "ASSET-SL-2026-084",
+  "fault_type": "Bulb Failure",
+  "confidence": 0.972,
+  "priority": "Medium",
+  "dispatch_decision": "Schedule repair",
+  "needs_verification": false,
+  "reading_timestamp": "2023-10-07 00:42:53",
+  "diagnostics": {
+    "power_w": 45.84,
+    "voltage_v": 225.65,
+    "current_a": 0.17,
+    "temperature_c": 19.53,
+    "environmental_current_a": 2.64,
+    "weather": "Cloudy"
+  },
+  "recommended_action": "Schedule a repair visit and replace the lamp or driver.",
+  "summary": "ASSET-SL-2026-084: Bulb Failure detected (confidence 97%). Voltage 225.7 V, current 0.17 A, power 45.8 W. Decision: Schedule repair. Schedule a repair visit and replace the lamp or driver.",
+  "status": "OPEN",
+  "signature": "d9100bd7153964b045cc159cb727ea657679db0bb1f72a08f71eea0daa74c3c6"
+}

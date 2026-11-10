@@ -1,0 +1,226 @@
+[
+    {
+        "ticket_id": "TKT-20261101-232510-0011",
+        "created_at": "2026-11-01T23:25:10",
+        "recipient": "maintenance@semifori-demo.local",
+        "subject": "Streetlight Fault Alert: ASSET-SL-2026-060",
+        "message": "\nSEMIFORI MUNICIPAL ELECTRICITY DEPARTMENT\nSTREETLIGHT MAINTENANCE ALERT\n\nA streetlight fault has been detected by SmartLight AI.\n\nTicket ID: TKT-20261101-232510-0011\nStreetlight ID: ASSET-SL-2026-060\nFault Type: Light Flickering\nPriority: Medium\nConfidence: 0.993\n\nSummary:\nASSET-SL-2026-060: Light Flickering detected (confidence 99%). Voltage 213.5 V, current 2.90 A, power 196.2 W. Decision: Schedule repair. Schedule an inspection of connections and the driver.\n\nRecommended Action:\nSchedule an inspection of connections and the driver.\n\nPlease review this maintenance ticket and arrange the necessary action.\n\nGenerated automatically by SmartLight AI.\n",
+        "delivery_status": "Prepared - Not Sent"
+    },
+    {
+        "ticket_id": "TKT-20261101-232510-0001",
+        "created_at": "2026-11-01T23:25:10",
+        "recipient": "maintenance@semifori-demo.local",
+        "subject": "Streetlight Fault Alert: ASSET-SL-2026-038",
+        "message": "\nSEMIFORI MUNICIPAL ELECTRICITY DEPARTMENT\nSTREETLIGHT MAINTENANCE ALERT\n\nA streetlight fault has been detected by SmartLight AI.\n\nTicket ID: TKT-20261101-232510-0001\nStreetlight ID: ASSET-SL-2026-038\nFault Type: Light Flickering\nPriority: Medium\nConfidence: 0.99\n\nSummary:\nASSET-SL-2026-038: Light Flickering detected (confidence 99%). Voltage 218.6 V, current 3.31 A, power 190.3 W. Decision: Schedule repair. Schedule an inspection of connections and the driver.\n\nRecommended Action:\nSchedule an inspection of connections and the driver.\n\nPlease review this maintenance ticket and arrange the necessary action.\n\nGenerated automatically by SmartLight AI.\n",
+        "delivery_status": "Prepared - Not Sent"
+    },
+    {
+        "ticket_id": "TKT-20261101-232510-0004",
+        "created_at": "2026-11-01T23:25:10",
+        "recipient": "maintenance@semifori-demo.local",
+        "subject": "Streetlight Fault Alert: ASSET-SL-2026-042",
+        "message": "\nSEMIFORI MUNICIPAL ELECTRICITY DEPARTMENT\nSTREETLIGHT MAINTENANCE ALERT\n\nA streetlight fault has been detected by SmartLight AI.\n\nTicket ID: TKT-20261101-232510-0004\nStreetlight ID: ASSET-SL-2026-042\nFault Type: Light Flickering\nPriority: Medium\nConfidence: 0.989\n\nSummary:\nASSET-SL-2026-042: Light Flickering detected (confidence 99%). Voltage 234.3 V, current 3.46 A, power 185.1 W. Decision: Schedule repair. Schedule an inspection of connections and the driver.\n\nRecommended Action:\nSchedule an inspection of connections and the driver.\n\nPlease review this maintenance ticket and arrange the necessary action.\n\nGenerated automatically by SmartLight AI.\n",
+        "delivery_status": "Prepared - Not Sent"
+    },
+    {
+        "ticket_id": "TKT-20261101-232510-0006",
+        "created_at": "2026-11-01T23:25:10",
+        "recipient": "maintenance@semifori-demo.local",
+        "subject": "Streetlight Fault Alert: ASSET-SL-2026-031",
+        "message": "\nSEMIFORI MUNICIPAL ELECTRICITY DEPARTMENT\nSTREETLIGHT MAINTENANCE ALERT\n\nA streetlight fault has been detected by SmartLight AI.\n\nTicket ID: TKT-20261101-232510-0006\nStreetlight ID: ASSET-SL-2026-031\nFault Type: Light Flickering\nPriority: Medium\nConfidence: 0.987\n\nSummary:\nASSET-SL-2026-031: Light Flickering detected (confidence 99%). Voltage 236.1 V, current 0.17 A, power 143.3 W. Decision: Schedule repair. Schedule an inspection of connections and the driver.\n\nRecommended Action:\nSchedule an inspection of connections and the driver.\n\nPlease review this maintenance ticket and arrange the necessary action.\n\nGenerated automatically by SmartLight AI.\n",
+        "delivery_status": "Prepared - Not Sent"
+    },
+    {
+        "ticket_id": "TKT-20261101-232510-0007",
+        "created_at": "2026-11-01T23:25:10",
+        "recipient": "maintenance@semifori-demo.local",
+        "subject": "Streetlight Fault Alert: ASSET-SL-2026-088",
+        "message": "\nSEMIFORI MUNICIPAL ELECTRICITY DEPARTMENT\nSTREETLIGHT MAINTENANCE ALERT\n\nA streetlight fault has been detected by SmartLight AI.\n\nTicket ID: TKT-20261101-232510-0007\nStreetlight ID: ASSET-SL-2026-088\nFault Type: Bulb Failure\nPriority: Medium\nConfidence: 0.624\n\nSummary:\nASSET-SL-2026-088: Bulb Failure detected (confidence 62%). Voltage 230.7 V, current 4.25 A, power 56.8 W. Decision: Schedule repair. Schedule a repair visit and replace the lamp or driver.\n\nRecommended Action:\nSchedule a repair visit and replace the lamp or driver.\n\nPlease review this maintenance ticket and arrange the necessary action.\n\nGenerated automatically by SmartLight AI.\n",
+        "delivery_status": "Prepared - Not Sent"
+    },
+    {
+        "ticket_id": "TKT-20261101-232510-0008",
+        "created_at": "2026-11-01T23:25:10",
+        "recipient": "maintenance@semifori-demo.local",
+        "subject": "Streetlight Fault Alert: ASSET-SL-2026-049",
+        "message": "\nSEMIFORI MUNICIPAL ELECTRICITY DEPARTMENT\nSTREETLIGHT MAINTENANCE ALERT\n\nA streetlight fault has been detected by SmartLight AI.\n\nTicket ID: TKT-20261101-232510-0008\nStreetlight ID: ASSET-SL-2026-049\nFault Type: Bulb Failure\nPriority: Medium\nConfidence: 0.605\n\nSummary:\nASSET-SL-2026-049: Bulb Failure detected (confidence 60%). Voltage 218.7 V, current 2.78 A, power 58.7 W. Decision: Schedule repair. Schedule a repair visit and replace the lamp or driver.\n\nRecommended Action:\nSchedule a repair visit and replace the lamp or driver.\n\nPlease review this maintenance ticket and arrange the necessary action.\n\nGenerated automatically by SmartLight AI.\n",
+        "delivery_status": "Prepared - Not Sent"
+    },
+    {
+        "ticket_id": "TKT-20261101-232510-0003",
+        "created_at": "2026-11-01T23:25:10",
+        "recipient": "maintenance@semifori-demo.local",
+        "subject": "Streetlight Fault Alert: ASSET-SL-2026-088",
+        "message": "\nSEMIFORI MUNICIPAL ELECTRICITY DEPARTMENT\nSTREETLIGHT MAINTENANCE ALERT\n\nA streetlight fault has been detected by SmartLight AI.\n\nTicket ID: TKT-20261101-232510-0003\nStreetlight ID: ASSET-SL-2026-088\nFault Type: Bulb Failure\nPriority: Medium\nConfidence: 0.602\n\nSummary:\nASSET-SL-2026-088: Bulb Failure detected (confidence 60%). Voltage 225.5 V, current 2.29 A, power 90.2 W. Decision: Schedule repair. Schedule a repair visit and replace the lamp or driver.\n\nRecommended Action:\nSchedule a repair visit and replace the lamp or driver.\n\nPlease review this maintenance ticket and arrange the necessary action.\n\nGenerated automatically by SmartLight AI.\n",
+        "delivery_status": "Prepared - Not Sent"
+    },
+    {
+        "ticket_id": "TKT-20261101-232510-0014",
+        "created_at": "2026-11-01T23:25:10",
+        "recipient": "maintenance@semifori-demo.local",
+        "subject": "Streetlight Fault Alert: ASSET-SL-2026-081",
+        "message": "\nSEMIFORI MUNICIPAL ELECTRICITY DEPARTMENT\nSTREETLIGHT MAINTENANCE ALERT\n\nA streetlight fault has been detected by SmartLight AI.\n\nTicket ID: TKT-20261101-232510-0014\nStreetlight ID: ASSET-SL-2026-081\nFault Type: Bulb Failure\nPriority: Medium\nConfidence: 0.556\n\nSummary:\nASSET-SL-2026-081: Bulb Failure detected (confidence 56%). Voltage 216.5 V, current 0.09 A, power 88.3 W. Decision: Verify remotely before dispatch. Schedule a repair visit and replace the lamp or driver.\n\nRecommended Action:\nSchedule a repair visit and replace the lamp or driver.\n\nPlease review this maintenance ticket and arrange the necessary action.\n\nGenerated automatically by SmartLight AI.\n",
+        "delivery_status": "Prepared - Not Sent"
+    },
+    {
+        "ticket_id": "TKT-20261101-232510-0018",
+        "created_at": "2026-11-01T23:25:10",
+        "recipient": "maintenance@semifori-demo.local",
+        "subject": "Streetlight Fault Alert: ASSET-SL-2026-021",
+        "message": "\nSEMIFORI MUNICIPAL ELECTRICITY DEPARTMENT\nSTREETLIGHT MAINTENANCE ALERT\n\nA streetlight fault has been detected by SmartLight AI.\n\nTicket ID: TKT-20261101-232510-0018\nStreetlight ID: ASSET-SL-2026-021\nFault Type: Bulb Failure\nPriority: Medium\nConfidence: 0.472\n\nSummary:\nASSET-SL-2026-021: Bulb Failure detected (confidence 47%). Voltage 235.0 V, current 3.53 A, power 159.2 W. Decision: Verify remotely before dispatch. Schedule a repair visit and replace the lamp or driver.\n\nRecommended Action:\nSchedule a repair visit and replace the lamp or driver.\n\nPlease review this maintenance ticket and arrange the necessary action.\n\nGenerated automatically by SmartLight AI.\n",
+        "delivery_status": "Prepared - Not Sent"
+    },
+    {
+        "ticket_id": "TKT-20261101-234402-0014",
+        "created_at": "2026-11-01T23:44:02",
+        "recipient": "maintenance@semifori-demo.local",
+        "subject": "Streetlight Fault Alert: ASSET-SL-2026-019",
+        "message": "\nSEMIFORI MUNICIPAL ELECTRICITY DEPARTMENT\nSTREETLIGHT MAINTENANCE ALERT\n\nA streetlight fault has been detected by SmartLight AI.\n\nTicket ID: TKT-20261101-234402-0014\nStreetlight ID: ASSET-SL-2026-019\nFault Type: Voltage Surge\nPriority: High\nConfidence: 0.997\n\nSummary:\nASSET-SL-2026-019: Voltage Surge detected (confidence 100%). Voltage 251.6 V, current 2.96 A, power 158.9 W. Decision: Dispatch crew now. Dispatch a crew urgently. Check the supply, surge protection and transformer tap, and inspect the fixture for damage.\n\nRecommended Action:\nDispatch a crew urgently. Check the supply, surge protection and transformer tap, and inspect the fixture for damage.\n\nPlease review this maintenance ticket and arrange the necessary action.\n\nGenerated automatically by SmartLight AI.\n",
+        "delivery_status": "Prepared - Not Sent"
+    },
+    {
+        "ticket_id": "TKT-20261101-234402-0004",
+        "created_at": "2026-11-01T23:44:02",
+        "recipient": "maintenance@semifori-demo.local",
+        "subject": "Streetlight Fault Alert: ASSET-SL-2026-054",
+        "message": "\nSEMIFORI MUNICIPAL ELECTRICITY DEPARTMENT\nSTREETLIGHT MAINTENANCE ALERT\n\nA streetlight fault has been detected by SmartLight AI.\n\nTicket ID: TKT-20261101-234402-0004\nStreetlight ID: ASSET-SL-2026-054\nFault Type: Voltage Surge\nPriority: High\nConfidence: 0.991\n\nSummary:\nASSET-SL-2026-054: Voltage Surge detected (confidence 99%). Voltage 241.3 V, current 1.36 A, power 54.4 W. Decision: Dispatch crew now. Dispatch a crew urgently. Check the supply, surge protection and transformer tap, and inspect the fixture for damage.\n\nRecommended Action:\nDispatch a crew urgently. Check the supply, surge protection and transformer tap, and inspect the fixture for damage.\n\nPlease review this maintenance ticket and arrange the necessary action.\n\nGenerated automatically by SmartLight AI.\n",
+        "delivery_status": "Prepared - Not Sent"
+    },
+    {
+        "ticket_id": "TKT-20261101-234402-0002",
+        "created_at": "2026-11-01T23:44:02",
+        "recipient": "maintenance@semifori-demo.local",
+        "subject": "Streetlight Fault Alert: ASSET-SL-2026-011",
+        "message": "\nSEMIFORI MUNICIPAL ELECTRICITY DEPARTMENT\nSTREETLIGHT MAINTENANCE ALERT\n\nA streetlight fault has been detected by SmartLight AI.\n\nTicket ID: TKT-20261101-234402-0002\nStreetlight ID: ASSET-SL-2026-011\nFault Type: Short Circuit\nPriority: High\nConfidence: 0.989\n\nSummary:\nASSET-SL-2026-011: Short Circuit detected (confidence 99%). Voltage 226.4 V, current 6.61 A, power 174.5 W. Decision: Dispatch crew now. Dispatch a crew urgently. Isolate the circuit and inspect the wiring, fuse and fixture before re-energising.\n\nRecommended Action:\nDispatch a crew urgently. Isolate the circuit and inspect the wiring, fuse and fixture before re-energising.\n\nPlease review this maintenance ticket and arrange the necessary action.\n\nGenerated automatically by SmartLight AI.\n",
+        "delivery_status": "Prepared - Not Sent"
+    },
+    {
+        "ticket_id": "TKT-20261101-234402-0005",
+        "created_at": "2026-11-01T23:44:02",
+        "recipient": "maintenance@semifori-demo.local",
+        "subject": "Streetlight Fault Alert: ASSET-SL-2026-020",
+        "message": "\nSEMIFORI MUNICIPAL ELECTRICITY DEPARTMENT\nSTREETLIGHT MAINTENANCE ALERT\n\nA streetlight fault has been detected by SmartLight AI.\n\nTicket ID: TKT-20261101-234402-0005\nStreetlight ID: ASSET-SL-2026-020\nFault Type: Light Flickering\nPriority: Medium\nConfidence: 1.0\n\nSummary:\nASSET-SL-2026-020: Light Flickering detected (confidence 100%). Voltage 216.9 V, current 3.33 A, power 113.8 W. Decision: Schedule repair. Schedule an inspection of connections and the driver.\n\nRecommended Action:\nSchedule an inspection of connections and the driver.\n\nPlease review this maintenance ticket and arrange the necessary action.\n\nGenerated automatically by SmartLight AI.\n",
+        "delivery_status": "Prepared - Not Sent"
+    },
+    {
+        "ticket_id": "TKT-20261101-234402-0009",
+        "created_at": "2026-11-01T23:44:02",
+        "recipient": "maintenance@semifori-demo.local",
+        "subject": "Streetlight Fault Alert: ASSET-SL-2026-004",
+        "message": "\nSEMIFORI MUNICIPAL ELECTRICITY DEPARTMENT\nSTREETLIGHT MAINTENANCE ALERT\n\nA streetlight fault has been detected by SmartLight AI.\n\nTicket ID: TKT-20261101-234402-0009\nStreetlight ID: ASSET-SL-2026-004\nFault Type: Light Flickering\nPriority: Medium\nConfidence: 1.0\n\nSummary:\nASSET-SL-2026-004: Light Flickering detected (confidence 100%). Voltage 219.0 V, current 0.50 A, power 74.6 W. Decision: Schedule repair. Schedule an inspection of connections and the driver.\n\nRecommended Action:\nSchedule an inspection of connections and the driver.\n\nPlease review this maintenance ticket and arrange the necessary action.\n\nGenerated automatically by SmartLight AI.\n",
+        "delivery_status": "Prepared - Not Sent"
+    },
+    {
+        "ticket_id": "TKT-20261101-234402-0018",
+        "created_at": "2026-11-01T23:44:02",
+        "recipient": "maintenance@semifori-demo.local",
+        "subject": "Streetlight Fault Alert: ASSET-SL-2026-071",
+        "message": "\nSEMIFORI MUNICIPAL ELECTRICITY DEPARTMENT\nSTREETLIGHT MAINTENANCE ALERT\n\nA streetlight fault has been detected by SmartLight AI.\n\nTicket ID: TKT-20261101-234402-0018\nStreetlight ID: ASSET-SL-2026-071\nFault Type: Light Flickering\nPriority: Medium\nConfidence: 1.0\n\nSummary:\nASSET-SL-2026-071: Light Flickering detected (confidence 100%). Voltage 234.2 V, current 3.85 A, power 126.7 W. Decision: Schedule repair. Schedule an inspection of connections and the driver.\n\nRecommended Action:\nSchedule an inspection of connections and the driver.\n\nPlease review this maintenance ticket and arrange the necessary action.\n\nGenerated automatically by SmartLight AI.\n",
+        "delivery_status": "Prepared - Not Sent"
+    },
+    {
+        "ticket_id": "TKT-20261101-234402-0019",
+        "created_at": "2026-11-01T23:44:02",
+        "recipient": "maintenance@semifori-demo.local",
+        "subject": "Streetlight Fault Alert: ASSET-SL-2026-071",
+        "message": "\nSEMIFORI MUNICIPAL ELECTRICITY DEPARTMENT\nSTREETLIGHT MAINTENANCE ALERT\n\nA streetlight fault has been detected by SmartLight AI.\n\nTicket ID: TKT-20261101-234402-0019\nStreetlight ID: ASSET-SL-2026-071\nFault Type: Light Flickering\nPriority: Medium\nConfidence: 1.0\n\nSummary:\nASSET-SL-2026-071: Light Flickering detected (confidence 100%). Voltage 223.8 V, current 4.42 A, power 107.9 W. Decision: Schedule repair. Schedule an inspection of connections and the driver.\n\nRecommended Action:\nSchedule an inspection of connections and the driver.\n\nPlease review this maintenance ticket and arrange the necessary action.\n\nGenerated automatically by SmartLight AI.\n",
+        "delivery_status": "Prepared - Not Sent"
+    },
+    {
+        "ticket_id": "TKT-20261101-234402-0012",
+        "created_at": "2026-11-01T23:44:02",
+        "recipient": "maintenance@semifori-demo.local",
+        "subject": "Streetlight Fault Alert: ASSET-SL-2026-051",
+        "message": "\nSEMIFORI MUNICIPAL ELECTRICITY DEPARTMENT\nSTREETLIGHT MAINTENANCE ALERT\n\nA streetlight fault has been detected by SmartLight AI.\n\nTicket ID: TKT-20261101-234402-0012\nStreetlight ID: ASSET-SL-2026-051\nFault Type: Light Flickering\nPriority: Medium\nConfidence: 0.999\n\nSummary:\nASSET-SL-2026-051: Light Flickering detected (confidence 100%). Voltage 212.9 V, current 2.67 A, power 82.2 W. Decision: Schedule repair. Schedule an inspection of connections and the driver.\n\nRecommended Action:\nSchedule an inspection of connections and the driver.\n\nPlease review this maintenance ticket and arrange the necessary action.\n\nGenerated automatically by SmartLight AI.\n",
+        "delivery_status": "Prepared - Not Sent"
+    },
+    {
+        "ticket_id": "TKT-20261101-234402-0015",
+        "created_at": "2026-11-01T23:44:02",
+        "recipient": "maintenance@semifori-demo.local",
+        "subject": "Streetlight Fault Alert: ASSET-SL-2026-087",
+        "message": "\nSEMIFORI MUNICIPAL ELECTRICITY DEPARTMENT\nSTREETLIGHT MAINTENANCE ALERT\n\nA streetlight fault has been detected by SmartLight AI.\n\nTicket ID: TKT-20261101-234402-0015\nStreetlight ID: ASSET-SL-2026-087\nFault Type: Light Flickering\nPriority: Medium\nConfidence: 0.998\n\nSummary:\nASSET-SL-2026-087: Light Flickering detected (confidence 100%). Voltage 237.6 V, current 2.05 A, power 115.8 W. Decision: Schedule repair. Schedule an inspection of connections and the driver.\n\nRecommended Action:\nSchedule an inspection of connections and the driver.\n\nPlease review this maintenance ticket and arrange the necessary action.\n\nGenerated automatically by SmartLight AI.\n",
+        "delivery_status": "Prepared - Not Sent"
+    },
+    {
+        "ticket_id": "TKT-20261101-234402-0007",
+        "created_at": "2026-11-01T23:44:02",
+        "recipient": "maintenance@semifori-demo.local",
+        "subject": "Streetlight Fault Alert: ASSET-SL-2026-054",
+        "message": "\nSEMIFORI MUNICIPAL ELECTRICITY DEPARTMENT\nSTREETLIGHT MAINTENANCE ALERT\n\nA streetlight fault has been detected by SmartLight AI.\n\nTicket ID: TKT-20261101-234402-0007\nStreetlight ID: ASSET-SL-2026-054\nFault Type: Light Flickering\nPriority: Medium\nConfidence: 0.99\n\nSummary:\nASSET-SL-2026-054: Light Flickering detected (confidence 99%). Voltage 229.2 V, current 4.22 A, power 181.3 W. Decision: Schedule repair. Schedule an inspection of connections and the driver.\n\nRecommended Action:\nSchedule an inspection of connections and the driver.\n\nPlease review this maintenance ticket and arrange the necessary action.\n\nGenerated automatically by SmartLight AI.\n",
+        "delivery_status": "Prepared - Not Sent"
+    },
+    {
+        "ticket_id": "TKT-20261101-234402-0017",
+        "created_at": "2026-11-01T23:44:02",
+        "recipient": "maintenance@semifori-demo.local",
+        "subject": "Streetlight Fault Alert: ASSET-SL-2026-092",
+        "message": "\nSEMIFORI MUNICIPAL ELECTRICITY DEPARTMENT\nSTREETLIGHT MAINTENANCE ALERT\n\nA streetlight fault has been detected by SmartLight AI.\n\nTicket ID: TKT-20261101-234402-0017\nStreetlight ID: ASSET-SL-2026-092\nFault Type: Bulb Failure\nPriority: Medium\nConfidence: 0.987\n\nSummary:\nASSET-SL-2026-092: Bulb Failure detected (confidence 99%). Voltage 238.4 V, current 2.23 A, power 42.5 W. Decision: Schedule repair. Schedule a repair visit and replace the lamp or driver.\n\nRecommended Action:\nSchedule a repair visit and replace the lamp or driver.\n\nPlease review this maintenance ticket and arrange the necessary action.\n\nGenerated automatically by SmartLight AI.\n",
+        "delivery_status": "Prepared - Not Sent"
+    },
+    {
+        "ticket_id": "TKT-20261101-234402-0011",
+        "created_at": "2026-11-01T23:44:02",
+        "recipient": "maintenance@semifori-demo.local",
+        "subject": "Streetlight Fault Alert: ASSET-SL-2026-082",
+        "message": "\nSEMIFORI MUNICIPAL ELECTRICITY DEPARTMENT\nSTREETLIGHT MAINTENANCE ALERT\n\nA streetlight fault has been detected by SmartLight AI.\n\nTicket ID: TKT-20261101-234402-0011\nStreetlight ID: ASSET-SL-2026-082\nFault Type: Light Flickering\nPriority: Medium\nConfidence: 0.974\n\nSummary:\nASSET-SL-2026-082: Light Flickering detected (confidence 97%). Voltage 229.3 V, current 1.23 A, power 181.2 W. Decision: Schedule repair. Schedule an inspection of connections and the driver.\n\nRecommended Action:\nSchedule an inspection of connections and the driver.\n\nPlease review this maintenance ticket and arrange the necessary action.\n\nGenerated automatically by SmartLight AI.\n",
+        "delivery_status": "Prepared - Not Sent"
+    },
+    {
+        "ticket_id": "TKT-20261101-234402-0003",
+        "created_at": "2026-11-01T23:44:02",
+        "recipient": "maintenance@semifori-demo.local",
+        "subject": "Streetlight Fault Alert: ASSET-SL-2026-072",
+        "message": "\nSEMIFORI MUNICIPAL ELECTRICITY DEPARTMENT\nSTREETLIGHT MAINTENANCE ALERT\n\nA streetlight fault has been detected by SmartLight AI.\n\nTicket ID: TKT-20261101-234402-0003\nStreetlight ID: ASSET-SL-2026-072\nFault Type: Bulb Failure\nPriority: Medium\nConfidence: 0.633\n\nSummary:\nASSET-SL-2026-072: Bulb Failure detected (confidence 63%). Voltage 228.4 V, current 3.16 A, power 168.7 W. Decision: Schedule repair. Schedule a repair visit and replace the lamp or driver.\n\nRecommended Action:\nSchedule a repair visit and replace the lamp or driver.\n\nPlease review this maintenance ticket and arrange the necessary action.\n\nGenerated automatically by SmartLight AI.\n",
+        "delivery_status": "Prepared - Not Sent"
+    },
+    {
+        "ticket_id": "TKT-20261101-234402-0016",
+        "created_at": "2026-11-01T23:44:02",
+        "recipient": "maintenance@semifori-demo.local",
+        "subject": "Streetlight Fault Alert: ASSET-SL-2026-012",
+        "message": "\nSEMIFORI MUNICIPAL ELECTRICITY DEPARTMENT\nSTREETLIGHT MAINTENANCE ALERT\n\nA streetlight fault has been detected by SmartLight AI.\n\nTicket ID: TKT-20261101-234402-0016\nStreetlight ID: ASSET-SL-2026-012\nFault Type: Bulb Failure\nPriority: Medium\nConfidence: 0.586\n\nSummary:\nASSET-SL-2026-012: Bulb Failure detected (confidence 59%). Voltage 216.4 V, current 1.42 A, power 104.9 W. Decision: Verify remotely before dispatch. Schedule a repair visit and replace the lamp or driver.\n\nRecommended Action:\nSchedule a repair visit and replace the lamp or driver.\n\nPlease review this maintenance ticket and arrange the necessary action.\n\nGenerated automatically by SmartLight AI.\n",
+        "delivery_status": "Prepared - Not Sent"
+    },
+    {
+        "ticket_id": "TKT-20261101-234402-0013",
+        "created_at": "2026-11-01T23:44:02",
+        "recipient": "maintenance@semifori-demo.local",
+        "subject": "Streetlight Fault Alert: ASSET-SL-2026-024",
+        "message": "\nSEMIFORI MUNICIPAL ELECTRICITY DEPARTMENT\nSTREETLIGHT MAINTENANCE ALERT\n\nA streetlight fault has been detected by SmartLight AI.\n\nTicket ID: TKT-20261101-234402-0013\nStreetlight ID: ASSET-SL-2026-024\nFault Type: Bulb Failure\nPriority: Medium\nConfidence: 0.525\n\nSummary:\nASSET-SL-2026-024: Bulb Failure detected (confidence 52%). Voltage 223.4 V, current 2.19 A, power 120.3 W. Decision: Verify remotely before dispatch. Schedule a repair visit and replace the lamp or driver.\n\nRecommended Action:\nSchedule a repair visit and replace the lamp or driver.\n\nPlease review this maintenance ticket and arrange the necessary action.\n\nGenerated automatically by SmartLight AI.\n",
+        "delivery_status": "Prepared - Not Sent"
+    },
+    {
+        "ticket_id": "TKT-20261101-234402-0001",
+        "created_at": "2026-11-01T23:44:02",
+        "recipient": "maintenance@semifori-demo.local",
+        "subject": "Streetlight Fault Alert: ASSET-SL-2026-016",
+        "message": "\nSEMIFORI MUNICIPAL ELECTRICITY DEPARTMENT\nSTREETLIGHT MAINTENANCE ALERT\n\nA streetlight fault has been detected by SmartLight AI.\n\nTicket ID: TKT-20261101-234402-0001\nStreetlight ID: ASSET-SL-2026-016\nFault Type: Bulb Failure\nPriority: Medium\nConfidence: 0.513\n\nSummary:\nASSET-SL-2026-016: Bulb Failure detected (confidence 51%). Voltage 224.6 V, current 1.75 A, power 82.1 W. Decision: Verify remotely before dispatch. Schedule a repair visit and replace the lamp or driver.\n\nRecommended Action:\nSchedule a repair visit and replace the lamp or driver.\n\nPlease review this maintenance ticket and arrange the necessary action.\n\nGenerated automatically by SmartLight AI.\n",
+        "delivery_status": "Prepared - Not Sent"
+    },
+    {
+        "ticket_id": "TKT-20261101-234402-0010",
+        "created_at": "2026-11-01T23:44:02",
+        "recipient": "maintenance@semifori-demo.local",
+        "subject": "Streetlight Fault Alert: ASSET-SL-2026-071",
+        "message": "\nSEMIFORI MUNICIPAL ELECTRICITY DEPARTMENT\nSTREETLIGHT MAINTENANCE ALERT\n\nA streetlight fault has been detected by SmartLight AI.\n\nTicket ID: TKT-20261101-234402-0010\nStreetlight ID: ASSET-SL-2026-071\nFault Type: Bulb Failure\nPriority: Medium\nConfidence: 0.512\n\nSummary:\nASSET-SL-2026-071: Bulb Failure detected (confidence 51%). Voltage 222.4 V, current 3.85 A, power 130.9 W. Decision: Verify remotely before dispatch. Schedule a repair visit and replace the lamp or driver.\n\nRecommended Action:\nSchedule a repair visit and replace the lamp or driver.\n\nPlease review this maintenance ticket and arrange the necessary action.\n\nGenerated automatically by SmartLight AI.\n",
+        "delivery_status": "Prepared - Not Sent"
+    },
+    {
+        "ticket_id": "TKT-20261101-234402-0006",
+        "created_at": "2026-11-01T23:44:02",
+        "recipient": "maintenance@semifori-demo.local",
+        "subject": "Streetlight Fault Alert: ASSET-SL-2026-036",
+        "message": "\nSEMIFORI MUNICIPAL ELECTRICITY DEPARTMENT\nSTREETLIGHT MAINTENANCE ALERT\n\nA streetlight fault has been detected by SmartLight AI.\n\nTicket ID: TKT-20261101-234402-0006\nStreetlight ID: ASSET-SL-2026-036\nFault Type: Bulb Failure\nPriority: Medium\nConfidence: 0.503\n\nSummary:\nASSET-SL-2026-036: Bulb Failure detected (confidence 50%). Voltage 226.2 V, current 4.21 A, power 117.1 W. Decision: Verify remotely before dispatch. Schedule a repair visit and replace the lamp or driver.\n\nRecommended Action:\nSchedule a repair visit and replace the lamp or driver.\n\nPlease review this maintenance ticket and arrange the necessary action.\n\nGenerated automatically by SmartLight AI.\n",
+        "delivery_status": "Prepared - Not Sent"
+    },
+    {
+        "ticket_id": "TKT-20261101-234402-0008",
+        "created_at": "2026-11-01T23:44:02",
+        "recipient": "maintenance@semifori-demo.local",
+        "subject": "Streetlight Fault Alert: ASSET-SL-2026-020",
+        "message": "\nSEMIFORI MUNICIPAL ELECTRICITY DEPARTMENT\nSTREETLIGHT MAINTENANCE ALERT\n\nA streetlight fault has been detected by SmartLight AI.\n\nTicket ID: TKT-20261101-234402-0008\nStreetlight ID: ASSET-SL-2026-020\nFault Type: Bulb Failure\nPriority: Medium\nConfidence: 0.494\n\nSummary:\nASSET-SL-2026-020: Bulb Failure detected (confidence 49%). Voltage 217.7 V, current 4.74 A, power 127.3 W. Decision: Verify remotely before dispatch. Schedule a repair visit and replace the lamp or driver.\n\nRecommended Action:\nSchedule a repair visit and replace the lamp or driver.\n\nPlease review this maintenance ticket and arrange the necessary action.\n\nGenerated automatically by SmartLight AI.\n",
+        "delivery_status": "Prepared - Not Sent"
+    }
+]

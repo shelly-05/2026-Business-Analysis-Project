@@ -1,0 +1,59 @@
+{
+  "status": "ok",
+  "span_start": "2023-01-01 00:33:30",
+  "span_end": "2023-12-31 23:46:21",
+  "resample_rule": "D",
+  "n_assets": 94,
+  "median_readings_per_asset": 365.0,
+  "fault_rate_by_hour_max": 0.32094594594594594,
+  "fault_rate_by_hour_min": 0.27305218012866334,
+  "ewma_any_sensor": {
+    "signal": "ANY sensor",
+    "flagged": 1351,
+    "precision": 0.9015544041450777,
+    "recall": 0.12119402985074627,
+    "f1": 0.21366546794140867
+  },
+  "forecast": {
+    "column": "voltage_levels (Volts)",
+    "alpha": 0.3,
+    "n": 24052,
+    "mae_naive_persistence": 10.380518343133941,
+    "mae_ewma": 8.122189586214276
+  },
+  "n_fault_onsets": 3484,
+  "top_risk_assets": [
+    {
+      "asset_id": "ASSET-SL-2026-086",
+      "risk_score": 0.3508,
+      "risk_level": "High"
+    },
+    {
+      "asset_id": "ASSET-SL-2026-033",
+      "risk_score": 0.3168,
+      "risk_level": "High"
+    },
+    {
+      "asset_id": "ASSET-SL-2026-057",
+      "risk_score": 0.3136,
+      "risk_level": "High"
+    },
+    {
+      "asset_id": "ASSET-SL-2026-075",
+      "risk_score": 0.297,
+      "risk_level": "Medium"
+    },
+    {
+      "asset_id": "ASSET-SL-2026-069",
+      "risk_score": 0.2959,
+      "risk_level": "Medium"
+    }
+  ],
+  "plots": [
+    "C:\\Users\\DzunaniS\\Downloads\\semifori\\SmartLightAI\\outputs\\plots\\ts_fault_rate.png",
+    "C:\\Users\\DzunaniS\\Downloads\\semifori\\SmartLightAI\\outputs\\plots\\ts_hourly_profile.png",
+    "C:\\Users\\DzunaniS\\Downloads\\semifori\\SmartLightAI\\outputs\\plots\\ts_decomposition.png",
+    "C:\\Users\\DzunaniS\\Downloads\\semifori\\SmartLightAI\\outputs\\plots\\ts_asset_anomalies.png",
+    "C:\\Users\\DzunaniS\\Downloads\\semifori\\SmartLightAI\\outputs\\plots\\ts_asset_risk.png"
+  ]
+}

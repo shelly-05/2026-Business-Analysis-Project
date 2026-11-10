@@ -1,0 +1,23 @@
+{
+  "ticket_id": "TKT-20261028-193228-0002",
+  "created_at": "2026-10-28T19:32:28",
+  "asset_id": "ASSET-SL-2026-033",
+  "fault_type": "Short Circuit",
+  "confidence": 0.994,
+  "priority": "High",
+  "dispatch_decision": "Dispatch crew now",
+  "needs_verification": false,
+  "reading_timestamp": "2023-08-28 08:53:31",
+  "diagnostics": {
+    "power_w": 96.16,
+    "voltage_v": 234.78,
+    "current_a": 7.4,
+    "temperature_c": 12.79,
+    "environmental_current_a": 0.26,
+    "weather": "Rainy"
+  },
+  "recommended_action": "Dispatch a crew urgently. Isolate the circuit and inspect the wiring, fuse and fixture before re-energising.",
+  "summary": "ASSET-SL-2026-033: Short Circuit detected (confidence 99%). Voltage 234.8 V, current 7.40 A, power 96.2 W. Decision: Dispatch crew now. Dispatch a crew urgently. Isolate the circuit and inspect the wiring, fuse and fixture before re-energising.",
+  "status": "OPEN",
+  "signature": "c986288a191b3e93c9d2bac664ddec699619503632e459bd1bc2c4a685283eb4"
+}

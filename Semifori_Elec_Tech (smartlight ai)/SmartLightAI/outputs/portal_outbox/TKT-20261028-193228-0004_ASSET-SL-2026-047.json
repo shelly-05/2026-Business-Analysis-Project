@@ -1,0 +1,23 @@
+{
+  "ticket_id": "TKT-20261028-193228-0004",
+  "created_at": "2026-10-28T19:32:28",
+  "asset_id": "ASSET-SL-2026-047",
+  "fault_type": "Light Flickering",
+  "confidence": 1.0,
+  "priority": "Medium",
+  "dispatch_decision": "Schedule repair",
+  "needs_verification": false,
+  "reading_timestamp": "2023-04-13 03:53:02",
+  "diagnostics": {
+    "power_w": 70.07,
+    "voltage_v": 215.93,
+    "current_a": 2.56,
+    "temperature_c": 16.42,
+    "environmental_current_a": 6.11,
+    "weather": "Rainy"
+  },
+  "recommended_action": "Schedule an inspection of connections and the driver.",
+  "summary": "ASSET-SL-2026-047: Light Flickering detected (confidence 100%). Voltage 215.9 V, current 2.56 A, power 70.1 W. Decision: Schedule repair. Schedule an inspection of connections and the driver.",
+  "status": "OPEN",
+  "signature": "7672c5286fea34b7b60e7419d4abee73bb6e72d2c715e4448c2da601dfabf0cb"
+}

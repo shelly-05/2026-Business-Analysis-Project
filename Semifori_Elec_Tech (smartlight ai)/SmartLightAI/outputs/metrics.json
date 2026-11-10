@@ -1,0 +1,545 @@
+{
+  "sklearn_version": "1.9.1",
+  "data_quality": {
+    "rows_in": 34310,
+    "unparseable_timestamps_kept": 0,
+    "dropped_missing_values": 0,
+    "dropped_unknown_weather": 0,
+    "dropped_invalid_fault_label": 0,
+    "dropped_out_of_range": 0,
+    "dropped_duplicates": 0,
+    "rows_out": 34310,
+    "rows_removed": 0,
+    "n_assets": 94,
+    "class_counts": {
+      "No Fault": 24111,
+      "Short Circuit": 1706,
+      "Voltage Surge": 1720,
+      "Bulb Failure": 3359,
+      "Light Flickering": 3414
+    },
+    "majority_class_share": 0.7027397260273973
+  },
+  "time_series": {
+    "status": "ok",
+    "span_start": "2023-01-01 00:33:30",
+    "span_end": "2023-12-31 23:46:21",
+    "resample_rule": "D",
+    "n_assets": 94,
+    "median_readings_per_asset": 365.0,
+    "fault_rate_by_hour_max": 0.32094594594594594,
+    "fault_rate_by_hour_min": 0.27305218012866334,
+    "ewma_any_sensor": {
+      "signal": "ANY sensor",
+      "flagged": 1351,
+      "precision": 0.9015544041450777,
+      "recall": 0.12119402985074627,
+      "f1": 0.21366546794140867
+    },
+    "forecast": {
+      "column": "voltage_levels (Volts)",
+      "alpha": 0.3,
+      "n": 24052,
+      "mae_naive_persistence": 10.380518343133941,
+      "mae_ewma": 8.122189586214276
+    },
+    "n_fault_onsets": 3484,
+    "top_risk_assets": [
+      {
+        "asset_id": "ASSET-SL-2026-086",
+        "risk_score": 0.3508,
+        "risk_level": "High"
+      },
+      {
+        "asset_id": "ASSET-SL-2026-033",
+        "risk_score": 0.3168,
+        "risk_level": "High"
+      },
+      {
+        "asset_id": "ASSET-SL-2026-057",
+        "risk_score": 0.3136,
+        "risk_level": "High"
+      },
+      {
+        "asset_id": "ASSET-SL-2026-075",
+        "risk_score": 0.297,
+        "risk_level": "Medium"
+      },
+      {
+        "asset_id": "ASSET-SL-2026-069",
+        "risk_score": 0.2959,
+        "risk_level": "Medium"
+      }
+    ],
+    "plots": [
+      "C:\\Users\\DzunaniS\\Downloads\\semifori\\SmartLightAI\\outputs\\plots\\ts_fault_rate.png",
+      "C:\\Users\\DzunaniS\\Downloads\\semifori\\SmartLightAI\\outputs\\plots\\ts_hourly_profile.png",
+      "C:\\Users\\DzunaniS\\Downloads\\semifori\\SmartLightAI\\outputs\\plots\\ts_decomposition.png",
+      "C:\\Users\\DzunaniS\\Downloads\\semifori\\SmartLightAI\\outputs\\plots\\ts_asset_anomalies.png",
+      "C:\\Users\\DzunaniS\\Downloads\\semifori\\SmartLightAI\\outputs\\plots\\ts_asset_risk.png"
+    ]
+  },
+  "cross_validation": [
+    {
+      "model": "Logistic Regression",
+      "cv_folds": 3,
+      "cv_accuracy_mean": 0.4680588416829545,
+      "cv_accuracy_std": 0.0027307435781043924,
+      "cv_macro_f1_mean": 0.44750927424935255,
+      "cv_macro_f1_std": 0.0034880882335276376
+    },
+    {
+      "model": "Random Forest",
+      "cv_folds": 3,
+      "cv_accuracy_mean": 0.8255323526386174,
+      "cv_accuracy_std": 0.0020158335502793376,
+      "cv_macro_f1_mean": 0.6916390866181953,
+      "cv_macro_f1_std": 0.005003478151952875
+    },
+    {
+      "model": "Gradient Boosting",
+      "cv_folds": 3,
+      "cv_accuracy_mean": 0.68549189040908,
+      "cv_accuracy_std": 0.0027734674421549454,
+      "cv_macro_f1_mean": 0.6241867092085241,
+      "cv_macro_f1_std": 0.003487092557656861
+    },
+    {
+      "model": "Neural Network (MLP)",
+      "cv_folds": 3,
+      "cv_accuracy_mean": 0.8363337105236086,
+      "cv_accuracy_std": 0.0024007915597454824,
+      "cv_macro_f1_mean": 0.6741782080435893,
+      "cv_macro_f1_std": 0.004919580106453804
+    }
+  ],
+  "model_comparison": [
+    {
+      "model": "Majority baseline",
+      "fit_seconds": 0.1,
+      "val_accuracy": 0.7027394598795415,
+      "val_balanced_accuracy": 0.2,
+      "val_macro_f1": 0.16508443633044273,
+      "val_mcc": 0.0,
+      "val_bulb_recall": 0.0,
+      "val_bulb_precision": 0.0,
+      "deployable": false
+    },
+    {
+      "model": "Logistic Regression",
+      "fit_seconds": 0.1,
+      "val_accuracy": 0.457548086263843,
+      "val_balanced_accuracy": 0.6480031568025331,
+      "val_macro_f1": 0.4369469010675239,
+      "val_mcc": 0.3386566986234916,
+      "val_bulb_recall": 0.6130952380952381,
+      "val_bulb_precision": 0.23268072289156627,
+      "deployable": true
+    },
+    {
+      "model": "Random Forest",
+      "fit_seconds": 1.2,
+      "val_accuracy": 0.8239751311443559,
+      "val_balanced_accuracy": 0.6144275304383509,
+      "val_macro_f1": 0.6883492282395044,
+      "val_mcc": 0.5950764704364069,
+      "val_bulb_recall": 0.19047619047619047,
+      "val_bulb_precision": 0.4192139737991266,
+      "deployable": true
+    },
+    {
+      "model": "Random Forest + augmentation",
+      "fit_seconds": 6.9,
+      "val_accuracy": 0.8437925004857199,
+      "val_balanced_accuracy": 0.6088280441198856,
+      "val_macro_f1": 0.6874895203629237,
+      "val_mcc": 0.6518437230857732,
+      "val_bulb_recall": 0.1349206349206349,
+      "val_bulb_precision": 0.9714285714285714,
+      "deployable": true
+    },
+    {
+      "model": "SVM (RBF)",
+      "fit_seconds": 61.1,
+      "val_accuracy": 0.8261122984262678,
+      "val_balanced_accuracy": 0.5534314915020896,
+      "val_macro_f1": 0.6307647328821593,
+      "val_mcc": 0.6075242351683299,
+      "val_bulb_recall": 0.061507936507936505,
+      "val_bulb_precision": 1.0,
+      "deployable": false
+    },
+    {
+      "model": "Gradient Boosting",
+      "fit_seconds": 11.0,
+      "val_accuracy": 0.6619389935884982,
+      "val_balanced_accuracy": 0.6589371578047192,
+      "val_macro_f1": 0.6114569641825949,
+      "val_mcc": 0.4331454917204981,
+      "val_bulb_recall": 0.5674603174603174,
+      "val_bulb_precision": 0.2387312186978297,
+      "deployable": true
+    },
+    {
+      "model": "Neural Network (MLP)",
+      "fit_seconds": 22.5,
+      "val_accuracy": 0.8356324072275112,
+      "val_balanced_accuracy": 0.604974035306581,
+      "val_macro_f1": 0.6762978982650161,
+      "val_mcc": 0.6272824847059985,
+      "val_bulb_recall": 0.14285714285714285,
+      "val_bulb_precision": 0.7741935483870968,
+      "deployable": true
+    }
+  ],
+  "selected_model": "Random Forest + augmentation",
+  "bulb_threshold": null,
+  "test_baseline": {
+    "accuracy": 0.7027394598795415,
+    "balanced_accuracy": 0.2,
+    "macro_f1": 0.16508443633044273,
+    "weighted_f1": 0.5800567381068694,
+    "mcc": 0.0,
+    "per_class": {
+      "No Fault": {
+        "precision": 0.7027394598795415,
+        "recall": 1.0,
+        "f1": 0.8254221816522136,
+        "support": 3617
+      },
+      "Short Circuit": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 256
+      },
+      "Voltage Surge": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 258
+      },
+      "Bulb Failure": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 504
+      },
+      "Light Flickering": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 512
+      }
+    },
+    "confusion_matrix": [
+      [
+        3617,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        256,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        258,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        504,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        512,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "roc_auc_macro_ovr": 0.5
+  },
+  "test_argmax": {
+    "accuracy": 0.8437925004857199,
+    "balanced_accuracy": 0.6117626387042934,
+    "macro_f1": 0.6868357014038677,
+    "weighted_f1": 0.8093063007223721,
+    "mcc": 0.6521649056637026,
+    "per_class": {
+      "No Fault": {
+        "precision": 0.8198771889924948,
+        "recall": 0.9966823334254907,
+        "f1": 0.8996755677564262,
+        "support": 3617
+      },
+      "Short Circuit": {
+        "precision": 0.9946524064171123,
+        "recall": 0.7265625,
+        "f1": 0.8397291196388262,
+        "support": 256
+      },
+      "Voltage Surge": {
+        "precision": 0.95,
+        "recall": 0.5155038759689923,
+        "f1": 0.6683417085427136,
+        "support": 258
+      },
+      "Bulb Failure": {
+        "precision": 0.9322033898305084,
+        "recall": 0.10912698412698413,
+        "f1": 0.19538188277087035,
+        "support": 504
+      },
+      "Light Flickering": {
+        "precision": 1.0,
+        "recall": 0.7109375,
+        "f1": 0.8310502283105022,
+        "support": 512
+      }
+    },
+    "confusion_matrix": [
+      [
+        3605,
+        1,
+        7,
+        4,
+        0
+      ],
+      [
+        70,
+        186,
+        0,
+        0,
+        0
+      ],
+      [
+        125,
+        0,
+        133,
+        0,
+        0
+      ],
+      [
+        449,
+        0,
+        0,
+        55,
+        0
+      ],
+      [
+        148,
+        0,
+        0,
+        0,
+        364
+      ]
+    ],
+    "roc_auc_macro_ovr": 0.8998904767072601
+  },
+  "test_final": {
+    "accuracy": 0.8437925004857199,
+    "balanced_accuracy": 0.6117626387042934,
+    "macro_f1": 0.6868357014038677,
+    "weighted_f1": 0.8093063007223721,
+    "mcc": 0.6521649056637026,
+    "per_class": {
+      "No Fault": {
+        "precision": 0.8198771889924948,
+        "recall": 0.9966823334254907,
+        "f1": 0.8996755677564262,
+        "support": 3617
+      },
+      "Short Circuit": {
+        "precision": 0.9946524064171123,
+        "recall": 0.7265625,
+        "f1": 0.8397291196388262,
+        "support": 256
+      },
+      "Voltage Surge": {
+        "precision": 0.95,
+        "recall": 0.5155038759689923,
+        "f1": 0.6683417085427136,
+        "support": 258
+      },
+      "Bulb Failure": {
+        "precision": 0.9322033898305084,
+        "recall": 0.10912698412698413,
+        "f1": 0.19538188277087035,
+        "support": 504
+      },
+      "Light Flickering": {
+        "precision": 1.0,
+        "recall": 0.7109375,
+        "f1": 0.8310502283105022,
+        "support": 512
+      }
+    },
+    "confusion_matrix": [
+      [
+        3605,
+        1,
+        7,
+        4,
+        0
+      ],
+      [
+        70,
+        186,
+        0,
+        0,
+        0
+      ],
+      [
+        125,
+        0,
+        133,
+        0,
+        0
+      ],
+      [
+        449,
+        0,
+        0,
+        55,
+        0
+      ],
+      [
+        148,
+        0,
+        0,
+        0,
+        364
+      ]
+    ],
+    "roc_auc_macro_ovr": 0.8998904767072602
+  },
+  "temporal_experiment": {
+    "n_temporal_features": 30,
+    "val_macro_f1_base": 0.6883492282395044,
+    "val_macro_f1_with_temporal": 0.6904885067530365,
+    "val_accuracy_base": 0.8239751311443559,
+    "val_accuracy_with_temporal": 0.8451525160287546,
+    "delta_macro_f1": 0.002139278513532128,
+    "conclusion": "temporal context did not help meaningfully; the single-reading model is kept"
+  },
+  "chronological_check": {
+    "accuracy": 0.8366038469011075,
+    "macro_f1": 0.6846807412748852,
+    "note": "trained on the earliest 70% of time, tested on the latest 15%"
+  },
+  "anomaly_detection": [
+    {
+      "detector": "Baseline envelope",
+      "roc_auc": 0.7405982280480158,
+      "precision": 0.9599483204134367,
+      "recall": 0.48562091503267973,
+      "f1": 0.6449652777777778,
+      "false_positive_rate": 0.008570638650815593,
+      "detects_Short Circuit": 0.73828125,
+      "detects_Voltage Surge": 0.5116279069767442,
+      "detects_Bulb Failure": 0.1130952380952381,
+      "detects_Light Flickering": 0.712890625
+    },
+    {
+      "detector": "Isolation Forest",
+      "roc_auc": 0.6551200666424527,
+      "precision": 0.5743589743589743,
+      "recall": 0.07320261437908497,
+      "f1": 0.12985507246376812,
+      "false_positive_rate": 0.022947193807022395,
+      "detects_Short Circuit": 0.125,
+      "detects_Voltage Surge": 0.06201550387596899,
+      "detects_Bulb Failure": 0.023809523809523808,
+      "detects_Light Flickering": 0.1015625
+    },
+    {
+      "detector": "Autoencoder",
+      "roc_auc": 0.6095207634247137,
+      "precision": 0.7125984251968503,
+      "recall": 0.11830065359477124,
+      "f1": 0.20291479820627803,
+      "false_positive_rate": 0.02018247166159801,
+      "detects_Short Circuit": 0.35546875,
+      "detects_Voltage Surge": 0.011627906976744186,
+      "detects_Bulb Failure": 0.013888888888888888,
+      "detects_Light Flickering": 0.15625
+    },
+    {
+      "detector": "Deployed (envelope OR both ML agree)",
+      "roc_auc": null,
+      "precision": 0.939622641509434,
+      "recall": 0.48823529411764705,
+      "f1": 0.6425806451612903,
+      "false_positive_rate": 0.013270666298037047,
+      "detects_Short Circuit": 0.73828125,
+      "detects_Voltage Surge": 0.5116279069767442,
+      "detects_Bulb Failure": 0.11706349206349206,
+      "detects_Light Flickering": 0.716796875
+    }
+  ],
+  "mlp_epochs_run": 69,
+  "feature_importance": [
+    {
+      "feature": "current_fluctuations (Amperes)",
+      "importance_mean": 0.16488686068358982,
+      "importance_std": 0.00562055601745468
+    },
+    {
+      "feature": "current_fluctuations_env (Amperes)",
+      "importance_mean": 0.15815427166933438,
+      "importance_std": 0.003027388102727764
+    },
+    {
+      "feature": "voltage_levels (Volts)",
+      "importance_mean": 0.11843661684304492,
+      "importance_std": 0.0033649261210628137
+    },
+    {
+      "feature": "power_consumption (Watts)",
+      "importance_mean": 0.038769814096055774,
+      "importance_std": 0.002154486401458915
+    },
+    {
+      "feature": "environmental_conditions",
+      "importance_mean": 0.004930574894519979,
+      "importance_std": 0.004323705018065653
+    },
+    {
+      "feature": "temperature (Celsius)",
+      "importance_mean": -0.0019933496270020832,
+      "importance_std": 0.001367766337154253
+    }
+  ],
+  "chatbot_intents": {
+    "n_test": 39,
+    "n_train": 113,
+    "accuracy": 0.9743589743589743,
+    "misclassified": [
+      {
+        "text": "which algorithm do you use",
+        "expected": "model_performance",
+        "predicted": "sensor_info"
+      }
+    ]
+  },
+  "model_file_mb": 10.25,
+  "sample_tickets": {
+    "tickets_from_test_set": 750,
+    "high_priority_dispatch_now": 318,
+    "needing_verification": 14,
+    "signatures_valid": true
+  },
+  "runtime_seconds": 232
+}
